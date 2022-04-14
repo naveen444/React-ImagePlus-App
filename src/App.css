@@ -92,3 +92,64 @@ button.dropdown-toggle:active:focus {
 .infinite-scroll-component__outerdiv {
 	padding: 0 !important;
 }
+
+.header-bar .mode-btn {
+	margin: 0 !important;
+}
+
+@media only screen and (max-width: 1200px) {
+	.header-bar .search-btn {
+		max-width: 46px;
+		width: auto !important;
+		flex: 1 1 auto !important;
+		padding: 0;
+	}
+	.header-bar .get-random-btn {
+		width: auto !important;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.header-bar {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: end;
+	}
+	.header-bar > div {
+		margin-bottom: 15px;
+	}
+	.header-bar .search-bar {
+		width: auto !important;
+		flex: 1 1 auto !important;
+		padding: 0;
+	}
+	.header-bar .search-btn,
+	.header-bar .get-random-btn {
+		width: auto !important;
+	}
+	.masonry.row > div {
+		width: 50% !important;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.header-bar > div {
+		margin-bottom: 15px !important;
+	}
+	.header-bar .search-bar {
+		width: calc(100% - 54px) !important;
+		flex: 1 1 calc(100% - 54px) !important;
+		padding: 0;
+		margin: 0 !important;
+		margin-bottom: 15px !important;
+	}
+	.header-bar .get-random-btn {
+		flex-grow: 1;
+	}
+	.header-bar .mode-btn {
+		margin-bottom: 15px !important;
+	}
+	.masonry.row > div {
+		width: 100% !important;
+	}
+}

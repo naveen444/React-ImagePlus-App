@@ -31,7 +31,7 @@ const Images = (props) => {
 
 	return (
 		<div className="p-2 min-vh-100">
-			<div className="row d-flex m-0 my-4 px-5">
+			<div className="row d-flex m-0 my-2 my-md-4 px-md-5">
 				<InfiniteScroll
 					dataLength={props.images.length}
 					next={props.fetch}
