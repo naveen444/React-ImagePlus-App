@@ -132,6 +132,13 @@ button.dropdown-toggle:active:focus {
 	}
 }
 
+@media only screen and (max-width: 767px) {
+	.info-bar {
+		position: absolute !important;
+		bottom: 0 !important;
+	}
+}
+
 @media only screen and (max-width: 576px) {
 	.header-bar > div {
 		margin-bottom: 15px !important;
