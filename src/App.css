@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.filters {
+	display: none !important;
+}
+
+.filters.show {
+	display: flex !important;
+}
+
+.filters > .col-2.orientation {
+	width: auto;
+}
+.filters > .col-2.sort-by {
+	width: auto;
+}
+
+.filters > .col-2.sort-by .dropdown-menu > li {
+	min-width: auto;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 1rem !important;
+    vertical-align: middle !important;
+    border-top: 0.35em solid !important;
+    border-right: 0.35em solid transparent !important;
+    border-bottom: 0;
+    border-left: 0.35em solid transparent !important;
+}
+
+button.dropdown-toggle:active,
+button.dropdown-toggle:focus,
+button.dropdown-toggle:active:focus {
+	border: none;
+	box-shadow: none;
+	outline: none;
+}
+
+.dropdown-menu,
+.dropdown-menu > li,
+.dropdown-menu > li > button,
+.dropdown-menu > li > button:hover,
+.dropdown-menu > li > button:active,
+.dropdown-menu > li > button:focus {
+	background-color: inherit;
+	color: inherit;
+	border: none !important;
+}
+
+.dropdown-menu > li > a {
+	padding: 7.5px .75rem !important;
+}
+
+.infinite-scroll-component__outerdiv {
+	padding: 0 !important;
+}

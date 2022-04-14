@@ -1,0 +1,80 @@
+ 
+.masonry {
+	margin: 0 -15px !important;
+	width: calc(100% + 30px) !important;
+	max-width: calc(100% + 30px) !important;
+	padding: 0 !important;
+}
+
+
+.masonry > div {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.masonry > div > .col {
+	margin: 0 15px 30px;
+}
+
+.individiualImage {
+	overflow: hidden;
+}
+
+.info-bar {
+	position: absolute;
+	bottom: -100%;
+	left: 0;
+	right: 0;
+	background-color: transparent !important;
+	background-blend-mode: multiply;
+	color: #fff;
+	transition: all 0.35s ease;
+	-webkit-transition: all 0.35s ease;
+	-moz-transition: all 0.35s ease;
+	-ms-transition: all 0.35s ease;
+	-o-transition: all 0.35s ease;
+}
+
+.individiualImage:hover .info-bar {
+	bottom: 0;
+}
+
+.user-likes,
+.download {
+	background-color: rgba(0, 0, 0, 0.65) !important;
+}
+
+.info-bar h6 {
+	font-size: 0.85rem !important;
+}
+
+.info-bar h6.likes {
+	display: flex;
+}
+
+.info-bar h6.likes svg {
+	margin-right: 7.5px;
+}
+
+.info-bar h6 a {
+	color: #00a8e8 !important;
+	text-decoration: none !important;
+}
+
+.info-bar h6 a:hover {
+	color: #0092CC !important;
+	text-decoration: underline !important;
+}
+
+.info-bar .download:hover {
+	background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.info-bar .download a {
+	color: #fff !important;
+}
+
+.info-bar .download svg:hover {
+	cursor: pointer;
+	color: #0092CC !important;
+}
