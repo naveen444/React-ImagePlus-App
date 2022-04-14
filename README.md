@@ -16,6 +16,8 @@
 
 <h1>Project Screenshot</h1>
 
+![alt text](https://github.com/naveen444/React-ImagePlus-App/blob/main/Project-screenshot.png)
+
 <h1>Have a look!</h1>
 
 <a href='https://imageplus.netlify.app/'>imageplus</a>
